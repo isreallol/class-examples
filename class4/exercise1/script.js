@@ -60,5 +60,6 @@ function animation() {
    timeline.to('#tongue', {y: 0, scale: 1});
    timeline.to('#tongue', {delay: 1})
    timeline.to('#tongue', {opacity: 0,})
+   timeline.to('#tongue', {duration: 2,})
 
 }
